@@ -383,3 +383,58 @@ nav img {
 #another-cta #input-cta button img {
   filter: invert(1);
 }
+
+footer {
+  color: rgba(255, 255, 255, 0.7);
+  max-width: 1200px;
+  margin: 40px auto;
+  padding: 10px 40px;
+}
+
+footer h4 {
+  margin-bottom: 20px;
+}
+
+footer #link-cont {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+footer #link-box {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+footer a {
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 14px;
+}
+
+footer #btn-1 {
+  margin-top: 70px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  align-items: center;
+  background-color: transparent;
+  color: #ffffff;
+  border: 1px solid #ffffff;
+  font-weight: 500;
+  font-size: 15px;
+  border-radius: 5px;
+  width: 100px;
+  height: 35px;
+  padding: 13px 55px;
+}
+
+footer #btn-1 img {
+  filter: invert(1);
+}
+
+footer h5 {
+  font-weight: 400;
+  margin-top: 50px;
+}
