@@ -168,3 +168,21 @@ nav img {
 #hero #input-cta button img {
   filter: invert(1);
 }
+
+/* divder */
+#divider {
+  width: 100vw;
+  height: 10px;
+  background: linear-gradient(
+    to right,
+    rgba(33, 13, 22, 1) 16%,
+    rgba(184, 40, 105, 1),
+    rgba(229, 9, 20, 1),
+    rgba(184, 40, 105, 1),
+    rgba(33, 13, 22, 1) 84%
+  );
+  margin-bottom: 20px;
+}
+
+/* 
+background: linear-gradient(to right, rgba(33, 13, 22, 1) 16%, rgba(184, 40, 105, 1), rgba(229, 9, 20, 1), rgba(184, 40, 105, 1), rgba(33, 13, 22, 1) 84%); */
