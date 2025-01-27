@@ -1,0 +1,107 @@
+@media screen and (max-width: 500px) {
+  nav {
+    width: 100%;
+    justify-content: center;
+  }
+  nav img {
+    transform: scale(1);
+  }
+
+  .nav-info #btn-1 {
+    height: 25px;
+  }
+
+  .nav-info #btn-2 {
+    padding: 3px 14px;
+  }
+
+  #hero {
+    padding-inline: 20px;
+    margin-top: 80px;
+  }
+
+  #hero h2 {
+    font-size: 30px;
+    line-height: 40px;
+  }
+
+  #hero #p1 {
+    font-size: 17px;
+  }
+
+  #hero #p2 {
+    font-size: 14px;
+    margin-top: 15px;
+  }
+
+  #input-cta {
+    flex-direction: column;
+  }
+
+  #hero #input-cta input {
+    width: 100%;
+  }
+}
+@media screen and (min-width: 501px) and (max-width: 700px) {
+  nav img {
+    transform: scale(1.5);
+  }
+
+  .nav-info #btn-1 {
+    height: 25px;
+  }
+
+  .nav-info #btn-2 {
+    padding: 3px 14px;
+  }
+
+  #hero {
+    padding-inline: 20px;
+  }
+
+  #hero h2 {
+    font-size: 40px;
+    line-height: 60px;
+  }
+
+  #hero #p1 {
+    font-size: 17px;
+  }
+
+  #hero #p2 {
+    font-size: 14px;
+    margin-top: 15px;
+  }
+
+  #input-cta {
+    flex-direction: column;
+  }
+}
+
+@media screen and (min-width: 701px) and (max-width: 1024px) {
+  nav img {
+    transform: scale(1.8);
+  }
+
+  .nav-info #btn-1 {
+    height: 30px;
+  }
+
+  .nav-info #btn-2 {
+    padding: 4px 14px;
+  }
+
+  #hero h2 {
+    font-size: 46px;
+    line-height: 70px;
+  }
+
+  #hero #p1 {
+    font-size: 18px;
+  }
+
+  #hero #p2 {
+    font-size: 14px;
+    margin-top: 20px;
+  }
+}
