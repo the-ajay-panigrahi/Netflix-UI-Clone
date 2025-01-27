@@ -41,6 +41,10 @@
   #hero #input-cta input {
     width: 100%;
   }
+
+  #feat-cont {
+    flex-wrap: wrap;
+  }
 }
 @media screen and (min-width: 501px) and (max-width: 700px) {
   nav img {
@@ -76,6 +80,10 @@
   #input-cta {
     flex-direction: column;
   }
+
+  #feat-cont {
+    flex-wrap: wrap;
+  }
 }
 
 @media screen and (min-width: 701px) and (max-width: 1024px) {
@@ -103,5 +111,9 @@
   #hero #p2 {
     font-size: 14px;
     margin-top: 20px;
+  }
+
+  #feat-cont {
+    flex-wrap: wrap;
   }
 }
