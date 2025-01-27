@@ -45,6 +45,10 @@
   #feat-cont {
     flex-wrap: wrap;
   }
+
+  #another-cta #input-cta input {
+    max-width: 350px;
+  }
 }
 @media screen and (min-width: 501px) and (max-width: 700px) {
   nav img {
@@ -84,6 +88,10 @@
   #feat-cont {
     flex-wrap: wrap;
   }
+
+  #another-cta #input-cta input {
+    max-width: 350px;
+  }
 }
 
 @media screen and (min-width: 701px) and (max-width: 1024px) {
@@ -115,5 +123,9 @@
 
   #feat-cont {
     flex-wrap: wrap;
+  }
+
+  #another-cta #input-cta input {
+    max-width: 350px;
   }
 }
