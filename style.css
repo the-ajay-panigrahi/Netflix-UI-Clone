@@ -247,6 +247,8 @@ nav img {
   background-image: url(./assets/t5.webp);
 }
 
+/* Reasons to join section */
+
 #join {
   color: #ffffff;
   max-width: 1200px;
@@ -289,4 +291,46 @@ nav img {
   position: absolute;
   bottom: 10px;
   right: 10px;
+}
+
+/* Faq Section */
+#faq {
+  color: #ffffff;
+  max-width: 1200px;
+  margin: 40px auto;
+  padding: 10px 40px;
+}
+
+#faq-cont {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+#faq h3 {
+  font-size: 24px;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+#faq img {
+  filter: invert(1);
+}
+
+.faq-qa {
+  background-color: #2d2d2d;
+  display: flex;
+  padding: 30px 20px;
+  justify-content: space-between;
+  align-items: center;
+  transition: all 0.3s;
+  cursor: pointer;
+}
+
+.faq-qa:hover {
+  background-color: #4e4c4c;
+}
+
+.faq-qa p {
+  font-size: 22px;
+  font-weight: 500;
 }
